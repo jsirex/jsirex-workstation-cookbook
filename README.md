@@ -11,7 +11,7 @@ Change me in doc/overview.md and run `knife cookbook doc .`
 
 ## Cookbooks:
 
-*No dependencies defined*
+* git
 
 # Attributes
 
@@ -19,7 +19,9 @@ Change me in doc/overview.md and run `knife cookbook doc .`
 
 # Recipes
 
-* jsirex-workstation::default - This cookbook prepares my workstations
+* jsirex-workstation::default - Recipes used at any computer
+* jsirex-workstation::pc - Recipes used at my home computer
+* jsirex-workstation::notebook - Recipes used at my notebook
 
 # License and Maintainer
 
