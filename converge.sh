@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CHEF_REPO=/root/jsirex-chef-repo
-RECIPE=${1:-sirex-pc}
+RECIPE=${1:-pc}
 
 export rvmsudo_secure_path=1
 

@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-# Your default recipe for jsirex-workstation
+include_recipe 'jsirex-workstation::git'
+include_recipe 'jsirex-workstation::emacs'
