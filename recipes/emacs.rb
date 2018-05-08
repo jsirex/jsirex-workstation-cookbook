@@ -14,7 +14,7 @@ git '/home/sirex/.emacs.d' do
   revision 'master'
   ignore_failure true
 
-  action :sync
+  user 'sirex'
 
-  not_if { File.directory? '/home/sirex/.emacs.d' }
+  action :checkout
 end
