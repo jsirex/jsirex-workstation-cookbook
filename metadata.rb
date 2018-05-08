@@ -17,7 +17,8 @@ depends 'git'
 chef_version '>= 14'
 
 # Provided recipes
-recipe 'jsirex-workstation::default', 'Recipes used at any computer'
+recipe 'jsirex-workstation::default', 'Automatically detects node and runs required recipes'
+recipe 'jsirex-workstation::common', 'Recipes used everywhere'
 recipe 'jsirex-workstation::pc', 'Recipes used at my home computer'
 recipe 'jsirex-workstation::notebook', 'Recipes used at my notebook'
 

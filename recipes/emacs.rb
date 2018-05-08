@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+include_recipe 'jsirex-workstation::apt'
 include_recipe 'jsirex-workstation::git'
 
 %w[emacs25].each do |pkg|

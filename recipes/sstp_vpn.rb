@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+include_recipe 'jsirex-workstation::apt'
+
 apt_repository 'eivnaes-network-manager-sstp' do
   uri 'http://ppa.launchpad.net/eivnaes/network-manager-sstp/ubuntu'
   distribution 'devel'
