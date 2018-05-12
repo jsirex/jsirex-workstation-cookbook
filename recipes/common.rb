@@ -3,3 +3,4 @@
 include_recipe 'jsirex-workstation::git'
 include_recipe 'jsirex-workstation::emacs'
 include_recipe 'jsirex-workstation::zsh'
+include_recipe 'jsirex-workstation::terraform'

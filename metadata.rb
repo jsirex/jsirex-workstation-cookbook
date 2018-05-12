@@ -12,6 +12,7 @@ source_url       'https://github.com/jsirex/jsirex-workstation-cookbook'
 
 supports 'debian'
 
+depends 'ark'
 depends 'git'
 
 chef_version '>= 14'
