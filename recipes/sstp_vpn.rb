@@ -11,3 +11,4 @@ apt_repository 'eivnaes-network-manager-sstp' do
 end
 
 package 'network-manager-sstp'
+package 'resolvconf'
