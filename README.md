@@ -4,7 +4,6 @@ This cookbook helps to prepare my workstation
 
 # TODO
 
-1. Terraform
 2. Telegram
 3. Nvidia Drivers
 4. Yed
@@ -26,11 +25,14 @@ This cookbook helps to prepare my workstation
 
 ## Cookbooks:
 
+* ark
 * git
 
 # Attributes
 
-* `node['jsirex']['workstation']['foo']` -  Defaults to `bar`.
+* `node['jsirex']['workstation']['terraform']['download_url']` -  Defaults to `https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip`.
+* `node['jsirex']['workstation']['terraform']['version']` -  Defaults to `0.11.7`.
+* `node['jsirex']['workstation']['habitat']['download_url']` -  Defaults to `https://api.bintray.com/content/habitat/stable/linux/x86_64/hab-$latest-x86_64-linux.tar.gz?bt_package=hab-x86_64-linux`.
 
 # Recipes
 

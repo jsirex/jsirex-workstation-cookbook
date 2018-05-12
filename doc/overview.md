@@ -2,7 +2,6 @@ This cookbook helps to prepare my workstation
 
 # TODO
 
-1. Terraform
 2. Telegram
 3. Nvidia Drivers
 4. Yed
