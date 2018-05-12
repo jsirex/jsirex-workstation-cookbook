@@ -9,6 +9,7 @@ describe 'jsirex-workstation::default' do
 
   before do
     stub_command('getent passwd sirex | cut -d: -f7 | grep /usr/bin/zsh > /dev/null').and_return(false)
+    stub_command('which hab').and_return(false)
   end
 
   it 'runs' do
