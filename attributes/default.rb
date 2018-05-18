@@ -16,6 +16,6 @@ default['jsirex']['workstation']['minishift']['config'].tap do |config|
   config['disk-size'] = '120GB'
   # 75% of memory = 3 / 4
   config['memory'] = (node['memory']['total'][/\d+/].to_i / 1024) * 3 / 4
-  config['openshift-version'] = '3.9'
+  config['openshift-version'] = '3.9.0'
   config['vm-driver'] = 'virtualbox'
 end
