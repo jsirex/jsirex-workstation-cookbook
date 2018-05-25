@@ -19,3 +19,5 @@ default['jsirex']['workstation']['minishift']['config'].tap do |config|
   config['openshift-version'] = '3.9.0'
   config['vm-driver'] = 'virtualbox'
 end
+
+default['jsirex']['workstation']['slack']['download_url'] = 'https://downloads.slack-edge.com/linux_releases/slack-desktop-3.2.0-beta25a7a50e-amd64.deb'

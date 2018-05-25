@@ -2,3 +2,4 @@
 
 include_recipe 'jsirex-workstation::common'
 include_recipe 'jsirex-workstation::sstp_vpn'
+include_recipe 'jsirex-workstation::slack'
