@@ -21,3 +21,7 @@ default['jsirex']['workstation']['minishift']['config'].tap do |config|
 end
 
 default['jsirex']['workstation']['slack']['download_url'] = 'https://downloads.slack-edge.com/linux_releases/slack-desktop-3.2.0-beta25a7a50e-amd64.deb'
+
+default['jsirex']['workstation']['vagrant']['download_url'] = 'https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_x86_64.deb'
+default['jsirex']['workstation']['vagrant']['checksum'] = 'cee18b6f3b1209ea5878c22cfd84a9f0004f20ef146cb7a18aada19162928a0f'
+default['jsirex']['workstation']['vagrant']['version'] = '2.1.1'
