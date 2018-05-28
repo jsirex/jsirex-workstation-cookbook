@@ -25,3 +25,10 @@ default['jsirex']['workstation']['slack']['download_url'] = 'https://downloads.s
 default['jsirex']['workstation']['vagrant']['download_url'] = 'https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_x86_64.deb'
 default['jsirex']['workstation']['vagrant']['checksum'] = 'cee18b6f3b1209ea5878c22cfd84a9f0004f20ef146cb7a18aada19162928a0f'
 default['jsirex']['workstation']['vagrant']['version'] = '2.1.1'
+
+# Docker
+default['jsirex']['workstation']['docker']['version'] = '18.03.1'
+default['jsirex']['workstation']['docker']['daemon']['experimental'] = true
+
+# Docker Compose
+default['jsirex']['workstation']['docker-compose']['version'] = '1.21.2'

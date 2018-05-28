@@ -14,6 +14,8 @@ supports 'debian'
 
 depends 'ark'
 depends 'git'
+# depends 'chef-apt-docker'
+depends 'docker'
 
 chef_version '>= 14'
 
