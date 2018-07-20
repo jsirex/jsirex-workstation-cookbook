@@ -27,7 +27,7 @@ default['jsirex']['workstation']['vagrant']['checksum'] = 'cee18b6f3b1209ea5878c
 default['jsirex']['workstation']['vagrant']['version'] = '2.1.1'
 
 # Docker
-default['jsirex']['workstation']['docker']['version'] = '18.03.1'
+default['jsirex']['workstation']['docker']['version'] = '18.06.0'
 default['jsirex']['workstation']['docker']['daemon']['experimental'] = true
 
 # Docker Compose
