@@ -3,7 +3,7 @@
 include_recipe 'jsirex-workstation::apt'
 include_recipe 'jsirex-workstation::git'
 
-%w[emacs25].each do |pkg|
+%w[emacs-snapshot].each do |pkg|
   package pkg do
     action :upgrade
   end
