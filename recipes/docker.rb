@@ -2,7 +2,7 @@
 
 # include_recipe 'chef-apt-docker::default'
 docker_installation_package 'default' do
-  version node['jsirex']['workstation']['docker']['version']
+  package_version node['jsirex']['workstation']['docker']['version']
   package_options "-o Dpkg::Options::='--force-confold' -o Dpkg::Options::='--force-all'"
 end
 
