@@ -6,7 +6,7 @@
 #   version node['jsirex']['workstation']['terraform']['version']
 # end
 
-cached_zip = File.join(Chef::Config[:file_cache_path], 'terraform.zip')
+cached_zip = File.join(Chef::Config[:file_cache_path], "terraform-#{node['jsirex']['workstation']['terraform']['version']}.zip")
 
 remote_file 'terraform-zip' do
   source node['jsirex']['workstation']['terraform']['download_url']
