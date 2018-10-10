@@ -27,8 +27,8 @@ default['jsirex']['workstation']['vagrant']['checksum'] = 'f614a60b258a856322f23
 default['jsirex']['workstation']['vagrant']['version'] = '1:2.1.2'
 
 # Docker
-default['jsirex']['workstation']['docker']['version'] = '18.06.0~ce~3-0~debian'
+default['jsirex']['workstation']['docker']['version'] = '18.06.1~ce~3-0~debian'
 default['jsirex']['workstation']['docker']['daemon']['experimental'] = true
 
 # Docker Compose
-default['jsirex']['workstation']['docker-compose']['version'] = '1.21.2'
+default['jsirex']['workstation']['docker-compose']['version'] = '1.23.0-rc2'
