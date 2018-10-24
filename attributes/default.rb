@@ -22,9 +22,9 @@ end
 
 default['jsirex']['workstation']['slack']['download_url'] = 'https://downloads.slack-edge.com/linux_releases/slack-desktop-3.2.0-beta25a7a50e-amd64.deb'
 
-default['jsirex']['workstation']['vagrant']['download_url'] = 'https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_x86_64.deb'
-default['jsirex']['workstation']['vagrant']['checksum'] = 'f614a60b258a856322f23d33a24201d26ab2555d047814fec403e834eb7d62b4'
-default['jsirex']['workstation']['vagrant']['version'] = '1:2.1.2'
+default['jsirex']['workstation']['vagrant']['download_url'] = 'https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_x86_64.deb'
+default['jsirex']['workstation']['vagrant']['checksum'] = 'f1caad948a8f545d5d7d2442396fe8a3bcdfd0fc8f643bd0576c81942e7be43b'
+default['jsirex']['workstation']['vagrant']['version'] = '1:2.2.0'
 
 # Docker
 default['jsirex']['workstation']['docker']['version'] = '18.06.1~ce~3-0~debian'
